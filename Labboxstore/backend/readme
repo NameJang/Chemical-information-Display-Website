@@ -1,0 +1,3 @@
+build command : npm i express pg dotenv multer nodemailer pdfkit node-cron xlsx moment path
+run command : node server.js
+เเก้ไข การเพิ่มข้อมูลตาม storage group + การสร้างบาร์โค้ด

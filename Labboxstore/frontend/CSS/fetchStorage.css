@@ -1,0 +1,64 @@
+:root {
+  --primary-color: #4caf50;
+  --header-bg: #e8f5e9;
+  --row-hover: #f1f8e9;
+  --border-color: #ddd;
+  --text-color: #333;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  color: var(--text-color);
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 12px var(--shadow-color);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border-color);
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+th {
+  background-color: var(--header-bg);
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: var(--row-hover);
+  transition: background-color 0.3s;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  color: #999;
+}
+
+img {
+  max-width: 80px;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
